@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .test1{grid-area:a;}
+        .test2{grid-area:b;}
+        .test3{grid-area:c;}
+        .test4{grid-area:d;}
+        .test5{grid-area:e;}
+        .test6{grid-area:f;}
+        .test7{grid-area:g;}
+        .test8{grid-area:h;}
+        .test9{grid-area:i;}
+        .test10{grid-area:j;}
+        .test11{grid-area:k;}
+        
+        
+        .grid-container{
+            display:grid;
+            grid-gap: 15px;
+            grid-template-areas: 
+            'a b b c c d d'
+            'a e e c c d d'
+            'f g h h i i j'
+            'f k k k i i j'
+            ;
+            
+            background-color: azure;
+            padding: 10px;
+            height: 100vh;
+        }
+        .test1{
+           
+            border:2px solid rgb(223, 17, 144);
+            
+           color: rgb(223, 17, 144) ;
+           
+           
+        }
+       
+        p{
+            
+            margin:0;
+            position:absolute;
+  top: 3%;
+  left: 3%;
+        }
+       
+        .grid-container>div{
+            font-size: 25px;
+            border-radius: 10px;
+            background-color: white;
+           position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+        }
+
+        
+        .test2{
+           
+           color:rgb(223, 17, 144) ;
+           
+           border: 2px solid;
+           border-color: rgb(223, 17, 144);
+           
+           
+       }
+       
+       
+       .test3{
+        color: rgb(223, 17, 144);
+           text-align: center;
+           border: 2px solid;
+           border-color: rgb(223, 17, 144);
+           
+       }
+      
+       .test4{
+        color: rgb(24, 170, 228);
+           text-align: center;
+           border: 2px solid;
+           border-color: rgb(24, 170, 228);
+          
+       }
+       
+       .test5{
+        color:rgb(24, 170, 228); ;
+           text-align: center;
+           border: 2px solid;
+           border-color: rgb(24, 170, 228);
+          
+       }
+    
+       .test6{
+        color: rgb(24, 170, 228);
+           text-align: center;
+           border: 2px solid;
+           border-color: rgb(24, 170, 228);
+           
+       }
+       .test7{
+        color: rgb(30, 216, 108);
+           text-align: center;
+           border: 2px solid;
+           border-color: rgb(30, 216, 108);
+           
+       }
+       .test8{
+        color: rgb(223, 17, 144);
+           text-align: center;
+           border: 2px solid;
+           border-color: rgb(223, 17, 144);
+           
+       }
+       .test9{
+        color: rgb(30, 216, 108);
+           text-align: center;
+           border: 2px solid;
+           border-color: rgb(30, 216, 108);
+           
+       }
+       .test10{
+        color: rgb(24, 170, 228);
+           text-align: center;
+           border: 2px solid;
+           border-color: rgb(24, 170, 228);
+           
+       }
+        .test11{
+            color: rgb(24, 170, 228);
+        
+            border: 2px solid;
+            border-color: rgb(24, 170, 228);
+            grid-column: 2/4;
+           
+        }
+        
+       
+        
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="test1"><p>1</p><p1>xo</p1></div>
+        <div class="test2"><p>2</p><p1>nx</p1></div>
+        <div class="test3"><p>3</p><p1>dy</p1></div>
+        <div class="test4"><p>4</p><p1>hy</p1></div>
+        <div class="test5"><p>5</p><p1>dp</p1></div>
+        <div class="test6"><p>6</p><p1>ll</p1></div>
+        <div class="test7"><p>7</p><p1>up</p1></div>
+        <div class="test8"><p>8</p><p1>rg</p1></div>
+        <div class="test9"><p>9</p><p1>xq</p1></div>
+        <div class="test10"><p>10</p><p1>ey</p1></div>
+        <div class="test11"><p>11</p><p1>wo</p1></div>
+        
+    </div>
+</body>
+</html>
